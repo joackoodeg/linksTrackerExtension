@@ -1,0 +1,99 @@
+/*
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 400px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #5f9341;
+    margin-bottom: 4px;
+}
+
+button {
+    background: #5f9341;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid #5f9341;
+    font-weight: bold;
+}
+
+#delete-btn {
+    background: white;
+    color: #5f9341;
+}
+
+ul {
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    margin-top: 5px;
+}
+
+a {
+    color: #5f9341;
+}
+*/
+
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 400px;
+    background-color: #f0f5f9; /* Un tono azulado claro para el fondo */
+    border-radius: 15px; /* Añade esquinas redondeadas */
+}
+
+input {
+    width: calc(100% - 22px); /* Ajusta el ancho del input para dejar espacio para el botón */
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #3498db; /* Un tono azul brillante para el borde */
+    margin-bottom: 4px;
+    border-radius: 10px; /* Añade esquinas redondeadas */
+}
+
+button {
+    background: #3498db; /* Un tono azul brillante para el fondo del botón */
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid #3498db; /* Un tono azul brillante para el borde */
+    font-weight: bold;
+    border-radius: 10px; /* Añade esquinas redondeadas */
+}
+
+#delete-btn {
+    background: #f0f5f9; /* Un tono azulado claro para el fondo del botón "DELETE ALL" */
+    color: #3498db; /* Un tono azul brillante para el texto del botón "DELETE ALL" */
+}
+
+ul {
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    margin-top: 5px;
+    border-radius: 5px; /* Añade esquinas redondeadas a los elementos de la lista */
+    background-color: white; /* Cambia el color del fondo de los elementos de la lista */
+}
+
+a {
+    color: #3498db; /* Un tono azul brillante para los enlaces */
+    text-decoration: none; /* Quita la subraya de los enlaces */
+}
+
+a:hover {
+    text-decoration: underline; /* Añade subrayado al pasar el ratón sobre los enlaces */
+}
+
+
+
